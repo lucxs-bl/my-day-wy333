@@ -1,0 +1,57 @@
+* {
+    background-color: #FFCFEF;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.p1 {
+    margin-top: 150px;
+}
+
+.texto h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+
+.b1 {
+    background: #5d5df0af;
+    border-radius: 999px;
+    box-shadow: #5d5df0af 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 40%;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 50px;
+  }
+
+  .seta::before {
+    align-items: center;
+    justify-content: center;
+    content: '\27F6'; /* Unicode da seta */
+    font-size: 1.2rem; /* Tamanho da seta */
+    color: #ffffff; /* Cor da seta */
+  }
